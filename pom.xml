@@ -12,10 +12,10 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>3.1.2</version>
-        <relativePath/> <!-- look up from Maven Central -->
+        <relativePath/>
     </parent>
 
-    <!-- 2) Your coordinates -->
+    <!-- 2) coordinates -->
     <groupId>com.tradenova</groupId>
     <artifactId>trade-nova</artifactId>
     <version>1.0.0-SNAPSHOT</version>
@@ -25,7 +25,6 @@
     <properties>
         <!-- used by Spring Boot’s parent -->
         <java.version>21</java.version>
-        <!-- your encoding settings -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
@@ -63,10 +62,10 @@
             <scope>runtime</scope>
         </dependency>
 
-        <!-- (Later you can add starter-security, starter-actuator, Web3j, gRPC, etc.) -->
+        <!-- (add starter-security, starter-actuator, Web3j, gRPC, etc.) -->
     </dependencies>
 
-    <!-- 5) Plugin to allow mvn spring-boot:run -->
+    <!-- 5) allow mvn spring-boot:run -->
     <build>
         <plugins>
             <plugin>
